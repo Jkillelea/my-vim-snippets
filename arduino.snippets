@@ -1,0 +1,50 @@
+# Arduino snippets
+extends c
+
+snippet set "Setup" 
+void setup() {
+	$1
+}
+endsnippet
+
+snippet loo "Loop"
+void loop() {
+	$1
+}
+endsnippet
+
+snippet sb "Serial.begin"
+Serial.begin($1);
+endsnippet
+
+snippet pm "pinMode"
+pinMode($1, $2);
+endsnippet
+
+snippet in "INPUT"
+INPUT
+endsnippet
+
+snippet out "OUTPUT"
+OUTPUT
+endsnippet
+
+snippet dw "digitalWrite"
+digitalWrite($1, $2);
+endsnippet
+
+snippet aw "analogWrite"
+analogWrite($1, $2);
+endsnippet
+
+snippet hi "HIGH"
+HIGH
+endsnippet
+
+snippet lo "LOW"
+LOW
+endsnippet
+
+snippet del "Delay"
+delay($1);
+endsnippet
